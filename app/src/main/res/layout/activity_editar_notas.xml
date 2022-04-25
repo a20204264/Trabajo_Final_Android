@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarNotasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOTAS"
+            android:textAlignment="center"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/notas" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EC01:"
+                android:layout_marginLeft="15dp"
+                android:textStyle=""/>
+
+            <EditText
+                android:id="@+id/EDTNOTA12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Ingrese Nota 1"
+                android:layout_marginLeft="150dp"
+                android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EC02:"
+                android:layout_marginLeft="15dp"
+                android:textStyle=""/>
+
+            <EditText
+                android:id="@+id/EDTNOTA22"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Ingrese Nota 2"
+                android:layout_marginLeft="150dp"
+                android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EC03:"
+                android:layout_marginLeft="15dp"
+                android:textStyle=""/>
+
+            <EditText
+                android:id="@+id/EDTNOTA32"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Ingrese Nota 3"
+                android:layout_marginLeft="150dp"
+                android:inputType="number"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="ECFINAL:"
+                android:textStyle="" />
+
+            <EditText
+                android:id="@+id/NOTAFINAL2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="130dp"
+                android:hint="Ingrese Nota Final"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Curso:" />
+
+        <Spinner
+            android:id="@+id/SPNOTACURR2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Alumno:" />
+
+        <Spinner
+            android:id="@+id/SPNALUMNO2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/BTNEDITARNOTA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#03A9F4"
+                android:text="ACTUALIZAR"
+                app:cornerRadius="60dp"
+                app:icon="@drawable/ic_editar" />
+
+            <Button
+                android:id="@+id/BTNCANCELARNOTA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F10505"
+                android:text="CANCELAR"
+                app:cornerRadius="60dp"
+                app:icon="@drawable/ic_cancelar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

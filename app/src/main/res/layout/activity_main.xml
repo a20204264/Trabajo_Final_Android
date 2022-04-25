@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#08F812"
+        android:text="PLATAFORMA DE GESTION"
+        android:textAlignment="center"
+        android:textColor="#1A7AC6"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALUMNOS"
+            android:textColor="#0F89EA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/alumnos" />
+
+        <Button
+            android:id="@+id/BTNIRALUMNOS"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#0F89EA"
+            android:text="Ir"
+            app:cornerRadius="60dp"
+            app:icon="@drawable/ic_list" />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFESORES:"
+            android:textColor="#C514E3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/profesores" />
+
+        <Button
+            android:id="@+id/BTNIRPROFESORES"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#C514E3"
+            android:text="Ir"
+            app:cornerRadius="60dp"
+            app:icon="@drawable/ic_list" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CURSOS:"
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cursos" />
+
+        <Button
+            android:id="@+id/BTNIRCURSOS"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:backgroundTint="#009688"
+            android:text="Ir"
+            app:cornerRadius="60dp"
+            app:icon="@drawable/ic_list" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARRERAS:"
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/carreras" />
+
+            <Button
+                android:id="@+id/BTNIRCARRERAS"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:backgroundTint="#FF5722"
+                android:text="Ir"
+                app:cornerRadius="60dp"
+                app:icon="@drawable/ic_list" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOTAS:"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/notas" />
+
+            <Button
+                android:id="@+id/BTNIRNOTAS"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:backgroundTint="#CDDC39"
+                android:text="Ir"
+                app:cornerRadius="60dp"
+                app:icon="@drawable/ic_list" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical"
+    tools:context=".AlumnosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LISTA DE ALUMNOS"
+            android:textAlignment="center"
+            android:textColor="#0F89EA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/LVALUMNOS"
+            android:layout_width="match_parent"
+            android:layout_height="390dp">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/BTNNUEVOALUMNO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#2196F3"
+                android:text="nuevo"
+                app:cornerRadius="60dp"
+                app:icon="@drawable/ic_add" />
+
+            <Button
+                android:id="@+id/BTNRETROCEDER"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#1838EC"
+                android:text="retroceder"
+                app:cornerRadius="60dp"
+                app:icon="@drawable/ic_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/BTNELIMINARALUMNO"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#F60404"
+                android:text="eliminar"
+                app:cornerRadius="60dp"
+                app:icon="@drawable/ic_delete" />
+
+            <Button
+                android:id="@+id/BTNEDITARALUMNO"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#009688"
+                android:text="editar"
+                app:cornerRadius="60dp"
+                app:icon="@drawable/ic_editar" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
